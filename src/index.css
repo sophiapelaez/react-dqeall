@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+}
+
+#title-image {
+  width: 100%;
+}
+
+#website-title {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  font-style: normal;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+  color: whitesmoke;
+  opacity: 80%;
+}
+
+#subtitle {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  color: whitesmoke;
+  opacity: 80%;
+}
+
+#section-heading {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 350px;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#text {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 24px;
+  color: black;
+  opacity: 60%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.lore {
+  margin-left: 5%;
+}
+
+.lore-things {
+  padding-right: 2%;
+  display: flex;
+}
+
+.lore img {
+  width: 450px;
+  padding-right: 50px;
+}
+
+#lore-title {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 28px;
+  font-style: italic;
+  padding-top:2%
+}
+
+#lore-text {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  padding-left: 7%;
+  padding-right: 5%;
+  text-align: justify;
+  opacity: 80%;
+  word-spacing: 0.2cm;
+}
+
+#space {
+  opacity: 0%;
+}
+
+.neozone {
+  display: flex;
+  padding-left: 10%;
+  width: 70%;
+}
+.discography {
+  margin: 2%;
+}
+
+.neozone img {
+  margin-right: 7%;
+  margin-left: 30%;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+}
+
+#disc-text a {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  opacity: 80%;
+}
+
+.tracks {
+  width: 300px;
+}
+
+#navigation a {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  opacity: 80%;
+}
+
+#navigation {
+  background-color: #00c753;
+  margin-top: 0%;
+  padding-top: 2%;
+  margin-bottom: 0%;
+}
+#discography-database {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 36px;
+  padding-left: 400px;
+}
+
+#arrow-right {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 21px;
+}
+
+#disc-subtitle {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 28px;
+  padding-right: 5%;
+  color: black;
+  padding-left: 500px;
+}
+
+#section-heading-2 {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 250px;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#text-2 {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: ital;
+  font-size: 24px;
+  color: black;
+  opacity: 60%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.carousel  {
+ position: relative;
+ height:100vh;
+ display:flex;
+ margin-right:-200px
+
+}
+#album-display{
+  width: 400px;
+  margin-left:400px;
+}
+
+#album-cover{
+width:500px;
+padding-left:120px;
+align-items: center;
+}
+
+.right-arrow{
+  position:absolute;
+  top: 2900px;
+  right:250px;
+  font-size:36px
+}
+
+.left-arrow{
+  position:absolute;
+  top: 2900px;
+  left:250px;
+  font-size:36px
+}
+
+
+.members {
+  padding-left: 320px;
+  margin-top: 100px;
+}
+
+#member-text-intro {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 24px;
+  padding-left: 195px;
+  opacity: 60%;
+  color: black;
+}
+
+.members img {
+  width: 20%;
+  margin: 2%;
+}
+
+#member-database {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+  padding-left: 80px;
+  font-style: italic;
+}
+
+.profile{
+  background color:black;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  display:flex;
+}
+
+.profile-inner{
+  background-color: black;
+  position:relative;
+  width:100%;
+  display:flex
+}
+
+.profile-text{
+  margin-top: 12%
+}
+
+.profile-photo{
+  margin-top:10%;
+  margin-right:5%
+}
+
+#profile-img{
+  width: 600px;
+  padding-left:200px;
+
+}
+
+#profile-name{
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  color: whitesmoke;
+
+}
+
+#profile-description{
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: whitesmoke;
+  opacity:80%;
+}
+
+#profile-link{
+  color: #00c753
+}
+.close-btn{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  color: whitesmoke;
+  background-color: black;
+  border:none;
+  font-size: 24px;
+  font-family: scandia-line-web, sans-serif;
+}
+
+#section-heading-3 {
+  font-family: scandia-line-web, sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#signup-form {
+  padding: 2%;
+  margin-left:200px;
+}
+
+#signup-form input{
+  width:500px;
+  margin-left:200px;
+  height:50px;
+  margin-bottom:2%;
+  border-color: black;
+  border-radius: 0;
+}
+
+#signup-form span{
+ margin-left:200px;
+}
+
+#submit{
+  font-family: scandia-line-web, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 24px;
+  background-color: black;
+  color:white;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: -20px;
+  text-align: center;
+  margin-top:2%;
+  border-radius: 0;
+  margin-left: 400px;
+}
